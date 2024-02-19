@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: "Fira Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 body {
@@ -15,11 +16,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #222;
-    padding: 1em;
 }
 
 header {
-    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +51,8 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Overview */
+
 .solar-system-wrapper {
     display: flex;
     flex-direction: row;
@@ -81,7 +82,7 @@ nav ul li a {
 }
 
 .sun {
-    background-color: #fffb00;
+    background-color: #ffd000;
     width: 10vw;
     height: 10vw;
     box-shadow: 0 0 1em .5em rgba(255, 255, 255, 0.5);
@@ -135,4 +136,32 @@ nav ul li a {
     background-color: #2e47b8;
     width: 5.25vw;
     height: 5.25vw;
+}
+
+/* Planets */
+
+.planet-list-entry {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1em;
+    align-items: center;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.planet-list-entry:hover {
+    background-color: #333;
+}
+
+.planet-image img {
+    max-width: 100%;
+}
+
+.planet-description {
+    padding-left: 1em;
+}
+
+.planet-description h2 {
+    margin-top: 0;
 }

@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     #wrapper {
         padding: 0;
     }
@@ -15,6 +19,8 @@
     nav ul li {
         margin: .5em 0;
     }
+
+    /* Overview */
 
     .solar-system-wrapper {
         flex-direction: column;
@@ -50,7 +56,7 @@
     }
 
     .planet:hover {
-        transform: scale(3.5);
+        transform: scale(3.15);
     }
 
     .mercury,
@@ -64,3 +70,5 @@
         transform: scale(3);
     }
 }
+
+/* Planets: */
