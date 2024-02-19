@@ -69,6 +69,26 @@
     .neptune {
         transform: scale(3);
     }
-}
 
-/* Planets: */
+    /* Planets: */
+
+    .planet-list-entry {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        border-bottom: 1px solid white;
+    }
+
+    .planet-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .planet-image img {
+     max-width: 66vw;
+    }
+
+    .planet-description h2 {
+        text-align: center;
+    }
+}
