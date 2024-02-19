@@ -1,0 +1,66 @@
+@media screen and (max-width: 768px) {
+    #wrapper {
+        padding: 0;
+    }
+
+    nav {
+        background-color: #222;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: .5em 0;
+    }
+
+    .solar-system-wrapper {
+        flex-direction: column;
+        padding-top: 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sun-container {
+        width: 100vw;
+        height: 35vw;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .sun {
+        position: absolute;
+        width: 100vw;
+        height: 100vw;
+        bottom: 1em;
+        left: 50%;
+    }
+
+    .sun,
+    .sun:hover {
+        transform: translateX(-50%);
+        transition: none;
+    }
+
+    .sun,
+    .planet {
+        margin: 3.5em 0;
+    }
+
+    .planet:hover {
+        transform: scale(3.5);
+    }
+
+    .mercury,
+    .venus,
+    .earth,
+    .mars,
+    .jupiter,
+    .saturn,
+    .uranus,
+    .neptune {
+        transform: scale(3);
+    }
+}
