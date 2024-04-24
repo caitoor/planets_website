@@ -1,0 +1,72 @@
+These are code snippets to save some time when doing this exercise in courses.
+
+HTML:
+
+<div class="sun"></div>
+<div class="planet mercury"></div>
+<div class="planet venus"></div>
+<div class="planet earth"></div>
+<div class="planet mars"></div>
+<div class="planet jupiter"></div>
+<div class="planet saturn"></div>
+<div class="planet uranus"></div>
+<div class="planet neptune"></div>
+<div class="planet pluto"></div>
+
+
+
+CSS:
+
+.mercury {
+    background-color: #a9a9a9;
+    width: 3vw;
+    height: 3vw;
+}
+
+.venus {
+    background-color: #ffbb00;
+    width: 3.75vw;
+    height: 3.75vw;
+}
+
+.earth {
+    background-color: #336996;
+    width: 3.9vw;
+    height: 3.9vw;
+}
+
+.mars {
+    background-color: #ff5e00;
+    width: 3.3vw;
+    height: 3.3vw;
+}
+
+.jupiter {
+    background-color: #ebb87b;
+    width: 7.5vw;
+    height: 7.5vw;
+}
+
+.saturn {
+    background-color: #f5e9b8;
+    width: 6.75vw;
+    height: 6.75vw;
+}
+
+.uranus {
+    background-color: #94ddf0;
+    width: 5.25vw;
+    height: 5.25vw;
+}
+
+.neptune {
+    background-color: #2e47b8;
+    width: 5.25vw;
+    height: 5.25vw;
+}
+
+.pluto {
+    background-color: #a9a9a9;
+    width: 1.5vw;
+    height: 1.5vw;
+}
