@@ -138,6 +138,11 @@ nav ul li a {
     height: 5.25vw;
 }
 
+.pluto {
+    background-color: #a9a9a9;
+    width: 2.25vw;
+    height: 2.25vw;
+}
 /* Planets */
 
 .planet-list-entry {
